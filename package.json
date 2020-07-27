@@ -1,7 +1,7 @@
 {
   "name": "gulu",
   "version": "0.0.1",
-  "description": "这是一个UI框架",
+  "description": "轱辘 - 一个 Vue UI 组件\r 作者：Ivan",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/6ivan/frank-test-1.git"
   },
-  "keywords": [
-    "vue，ui"
-  ],
-  "author": "ivan",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/6ivan/frank-test-1/issues"
   },
