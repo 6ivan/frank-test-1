@@ -34,18 +34,18 @@
 
 <body>
 <div id='app'>
-    <g-button icon="setting" icon-position="right">
+    <g-button icon="setting" :loading="loading1" @click="loading1 = !loading1" icon-position="right">
         阿巴阿巴
     </g-button>
-    <g-button icon="setting" icon-position="left">
+    <g-button icon="setting" @click="loading2 = !loading2" :loading="loading2" icon-position="left">
         阿巴阿巴
     </g-button>
-    <g-button icon="setting">
+    <g-button :loading="loading3" @click="loading3 = !loading3" icon="setting">
         阿巴阿巴
     </g-button>
 </div>
 <script src="./src/app.js"></script>
-<script src="//at.alicdn.com/t/font_1180215_rkhtp9m0vu.js"></script>
+<script src="//at.alicdn.com/t/font_1180215_h2gh0k0361v.js"></script>
 </body>
 
 </html>
