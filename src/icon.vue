@@ -1,17 +1,19 @@
 <template>
-
     <svg class="g-icon">
-        <use :xlink:href=`#i-${name}`></use>
+        <use :xlink:href="`#i-${name}`"></use>
     </svg>
 </template>
 <script>
+    import "./svg"
+
     export default {
-        props:['name']
+        name: 'GuluIcon',
+        props: ['name']
     }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
     .g-icon {
-        height: 1em;
         width: 1em;
+        height: 1em;
     }
 </style>
